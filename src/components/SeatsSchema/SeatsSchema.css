@@ -1,0 +1,22 @@
+.seats-schema-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.seat {
+    width: 120px;
+    height: 180px;
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.empty {
+    background-color: greenyellow;
+}
+
+.occupied {
+    background-color: red;
+}
